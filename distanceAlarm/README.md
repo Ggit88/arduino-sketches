@@ -5,12 +5,12 @@ As long as there are no objects near to distance sensor, the green led is on and
 
 Arduino board gets input from the distance sensor and after some control loop logic sends output to the leds.
 
-###Components
+### Components
 - LED Red
 - LED Green
 - Resistor 220 Ohm - x2
 - Arduino Uno board or equivalent (I used Elegoo Uno R3)
 - HC-SR04 Distance Sensor
 
-###Breadboard
+### Breadboard
 ![Image](./images/distanceAlarm.png)
