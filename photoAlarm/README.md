@@ -5,11 +5,11 @@ As long as the light intensity is beyond a threshold set in the program there ar
 
 Arduino board gets analogic input from the photocell (photo resistor) and after some control loop logic sends digital output to the buzzer.
 
-###Components
+### Components
 - Photo-Resistor
 - Resistor 1k Ohm
 - Active Buzzer
 - Arduino Uno board or equivalent (I used Elegoo Uno R3)
 
-###Breadboard
+### Breadboard
 ![Image](./images/photoAlarm.png)
