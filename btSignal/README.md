@@ -3,7 +3,7 @@ BT Signal listens to bluetooth messages in order to power on/off a led and repli
 
 The HC-06 module is in charge of the bluetooth messaging and it communicates with Arduino One like a serial port, Arduino One manages the logic for messages dispatching, led activation and overall status.
 
-Ardino One and HC-06 module have different voltages for high value, respectively 5V and 3.3V so a little adapting is needed:
+Arduino One and HC-06 module have different voltages for high value, respectively 5V and 3.3V so a little adapting is needed:
 - HC-06 TXD pin transmits 3.3V to Arduino One 12 pin, the Aduino board recognizes 3.3V as high value so a direct wiring is possible
 - HC-06 RXD pin receives from Arduino One 13 pin, 5V is too high and can damage the module so a voltage divider is needed. To lower the 5V to a valure near to 3.3V the voltage divider is made up by two parallel 10k ohm resistors in series with another 10k ohm resistor. 
 
