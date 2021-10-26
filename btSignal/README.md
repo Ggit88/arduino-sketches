@@ -19,4 +19,5 @@ Ardino One and HC-06 module have different voltages for high value, respectively
 
 ### BT Signal App
 BT Signal app is a android application made with flutter for interacting with BT signal hardware.
-More info at ./bt_signal_app/README.md
+
+More info [here](./bt_signal_app/README.md)
