@@ -19,7 +19,4 @@ Ardino One and HC-06 module have different voltages for high value, respectively
 
 ### BT Signal App
 BT Signal app is a android application made with flutter for interacting with BT signal hardware.
-The user picks HC-06 from the list of the bluetooth devices paired with the phone, then he can turn the led on/off and receives feedback through screen color changes.
-Paired Bluetooth Devices |  BT Signal Led Off  |  BT Signal Led On  |
-:---:|:---:|:---:|
-![Image](./images/bluetoothDeviceList.jpg)  |  ![Image](./images/ledOn.jpg)  |  ![Image](./images/ledOff.jpg)  |
+More info at ./bt_signal_app/README.md
